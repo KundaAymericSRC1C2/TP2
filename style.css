@@ -1,13 +1,20 @@
 #container
 {
+<<<<<<< HEAD
 	margin: 0 30px;
 	background: #fff;
 	cursor:pointer;
 	background-color:grey;
+=======
+	margin: 0 15px;
+	background: #4A306C;
+
+>>>>>>> branche_AK
 }
 
 #header
 {
+<<<<<<< HEAD
 	color:grey;
 	background:black;
 	padding: 20px;
@@ -15,6 +22,15 @@
 	text-align:center;
 	font-size:xx-large;
 }	font-style:italic;
+=======
+	background: #6DCB1B;
+	padding: 20px;
+color: #4A306C;
+text-align: center;
+text-decoration: blink;
+
+}
+>>>>>>> branche_AK
 
 #header h1 { margin: 0; }
 
@@ -22,7 +38,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #fff;
 }
 
 #navigation ul
@@ -33,8 +49,9 @@
 
 #navigation ul li
 {
-	list-style-type: none;
+	list-style-type: square;
 	display: inline;
+
 }
 
 #navigation li a
@@ -42,9 +59,9 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
-	border-right: 1px solid #fff;
+	color: #010101;
+	text-decoration: italic;
+	border-right: 1px solid #010101;
 }
 
 #navigation li a:hover { background: #383; }
@@ -56,21 +73,30 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #3ED707;
+	box-shadow: 0px 0px 6px #3ED707;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+<<<<<<< HEAD
 	background-color:black;
 	color:white;
+=======
+color: #FFF;
+text-align: justify;
+>>>>>>> branche_AK
 }
 
 #edito h2
 {
+<<<<<<< HEAD
 	color:white;
+=======
+	color: #3ED707;
+>>>>>>> branche_AK
 	font-size: 160%;
 	margin: 0 0 .5em;
 	font-style:oblique;
@@ -86,21 +112,27 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #3ED707;
+	box-shadow: 0px 0px 6px #3ED707;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+color:#fff;
+text-align: justify;
 }
 
 #footer
 {	color:white;
 	font-size:x-small;
 	clear: both;
+<<<<<<< HEAD
 	background: black;
+=======
+	background: #3ED707;
+>>>>>>> branche_AK
 	text-align: right;
 	padding: 20px;
 	height: 1%;
