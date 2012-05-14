@@ -1,13 +1,18 @@
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+	margin: 0 15px;
+	background: #4A306C;
+
 }
 
 #header
 {
-	background: #ccc;
+	background: #6DCB1B;
 	padding: 20px;
+color: #4A306C;
+text-align: center;
+text-decoration: blink;
+
 }
 
 #header h1 { margin: 0; }
@@ -16,7 +21,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #fff;
 }
 
 #navigation ul
@@ -27,8 +32,9 @@
 
 #navigation ul li
 {
-	list-style-type: none;
+	list-style-type: square;
 	display: inline;
+
 }
 
 #navigation li a
@@ -36,9 +42,9 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
-	border-right: 1px solid #fff;
+	color: #010101;
+	text-decoration: italic;
+	border-right: 1px solid #010101;
 }
 
 #navigation li a:hover { background: #383; }
@@ -50,19 +56,21 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #3ED707;
+	box-shadow: 0px 0px 6px #3ED707;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+color: #FFF;
+text-align: justify;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #3ED707;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -75,20 +83,22 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #3ED707;
+	box-shadow: 0px 0px 6px #3ED707;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+color:#fff;
+text-align: justify;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #3ED707;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
